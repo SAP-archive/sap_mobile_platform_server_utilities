@@ -2,11 +2,12 @@
 
 Software stops function correctly because of a network problem.
 
-Reason and Prerequisites
+**Reason and Prerequisites**
+
 Network communication problems are one of the challenges any company faces in order to keep their system functional. To detect and find this interuption is very challenging. This SAP note, provides a Java utility, NetworkCheck, that checks the behaviour of a network of servers. Here  are the benefit can be achieved from this Utility:
 
-If your software requires to communicate with more than one node. ( i.e VM nodes, or physical servers )
-If from time to time communication between your VM nodes or physical severs got interupted 
+1. If your software requires to communicate with more than one node. ( i.e VM nodes, or physical servers )
+2. If from time to time communication between your VM nodes or physical severs got interupted 
  
 
 **Requirement**
