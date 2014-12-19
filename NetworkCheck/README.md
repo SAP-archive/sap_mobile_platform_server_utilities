@@ -1,4 +1,4 @@
-Symptom
+**Symptom**
 
 Software stops function correctly because of a network problem.
 
@@ -9,13 +9,14 @@ If your software requires to communicate with more than one node. ( i.e VM nodes
 If from time to time communication between your VM nodes or physical severs got interupted 
  
 
-Requirement:
+**Requirement**
 
 Java SDK 1.7 to compile the NetworkCheck.java 
 Text Editor 
  
 
-Solution
+**Solution**
+
 Unzip the attached source code into a folder ( i.e c:\java ) 
 Open the Java source code in a text editor
 Go to line number: 8 and change the directory where the log file should be writen. By default it is "c:/SAP"
@@ -51,7 +52,7 @@ Example:
 
  
 
-Next Step:
+**Next Step**
 
 If any such exceptions occur (that is any with text "Exception while" and/or a stack trace), that will give you the proof that you do have a network communication problems and you need to fixed this communication with your network administrator.  
 This NetworkCheck should be left running on all system until the issue has been resolved 
