@@ -1,4 +1,5 @@
 Symptom
+
 Software stops function correctly because of a network problem.
 
 Reason and Prerequisites
