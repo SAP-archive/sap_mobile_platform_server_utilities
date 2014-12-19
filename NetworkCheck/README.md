@@ -17,18 +17,19 @@ Text Editor
 
 **Solution**
 
-Unzip the attached source code into a folder ( i.e c:\java ) 
-Open the Java source code in a text editor
-Go to line number: 8 and change the directory where the log file should be writen. By default it is "c:/SAP"
-Go to line numer 10 and edit the list of the hosts that you want the utility to monitor and add to the list if you have more than two nodes to monitor. Replace the following with your host name, <HOST-NAME-TO-BE-REPLACED>  
-By default, the utility listens on port 2203, you can modify that by going to line 16 and changing the value of CHECKER_PORT 
-From the command prompt after you are satisfy with the changes to the utility, create a folder called "c:\java\classes" 
-Copy the NetworkCheck.java to "c:\java" folder 
-Now compile the source code as follows: javac -d c:\java\classes NetworkCheck.java 
-Run the utility by executing this command from within the c:\java directory as follow: java -classpath c:\java\classes misc.NetworkCheck
+1. Unzip the attached source code into a folder ( i.e c:\java ) 
+2. Open the Java source code in a text editor
+3. Go to line number: 8 and change the directory where the log file should be writen. By default it is "c:/SAP"
+4. Go to line numer 10 and edit the list of the hosts that you want the utility to monitor and add to the list if you have
+5. more than two nodes to monitor. Replace the following with your host name, <HOST-NAME-TO-BE-REPLACED>  
+6. By default, the utility listens on port 2203, you can modify that by going to line 16 and changing the value of CHECKER_PORT 
+7. From the command prompt after you are satisfy with the changes to the utility, create a folder called "c:\java\classes"
+8. Copy the NetworkCheck.java to "c:\java" folder
+9. Now compile the source code as follows: javac -d c:\java\classes NetworkCheck.java 
+10. Run the utility by executing this command from within the c:\java directory as follow: java -classpath c:\java\classes misc.NetworkCheck
 
-Note: If you need to run the java program as a service instead of keeping Windows command prompt open for weeks at a time, then you could use JSL ( Java Service Launcher ) which can be accessed from
-the following URL: http://sourceforge.net/projects/jslwin/
+**Note:** If you need to run the java program as a service instead of keeping Windows command prompt open for weeks at a time, then you could use JSL ( Java Service Launcher ) which can be accessed from
+the following URL: [http://sourceforge.net/projects/jslwin/](http://sourceforge.net/projects/jslwin/)
   
 Each node will generate its own log file. By default c:\SAP\NetworkCheck-nodename.log. If the output directory in the source code change, then that would be the location where the log is going to reside 
 Note:
