@@ -59,3 +59,4 @@ Example:
 If any such exceptions occur (that is any with text "Exception while" and/or a stack trace), that will give you the proof that you do have a network communication problems and you need to fixed this communication with your network administrator.  
 This NetworkCheck should be left running on all system until the issue has been resolved 
  
+**Note:** This tool is made for at least two nodes or more. It is not made to be tested in one node only. 
